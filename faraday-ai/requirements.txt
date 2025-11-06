@@ -1,0 +1,62 @@
+# FARADAY AI - Dependencies
+# Python 3.9+
+
+# Core Framework
+chainlit==1.0.0
+
+# LLM Providers
+openai==1.14.0
+anthropic==0.18.1
+
+# LangChain
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-openai==0.0.8
+
+# Vector Store & Embeddings
+faiss-cpu==1.8.0
+sentence-transformers==2.5.1
+
+# Document Processing
+pypdf==3.17.4
+docx2txt==0.8
+python-docx==1.1.0
+
+# TTS (Coqui)
+TTS==0.22.0
+
+# AI/ML Libraries
+transformers==4.37.2
+torch==2.1.2
+accelerate==0.26.1
+
+# Web & API
+aiohttp==3.9.3
+requests==2.31.0
+
+# Gmail Integration
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.116.0
+
+# WhatsApp (Twilio)
+twilio==9.0.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.1
+loguru==0.7.2
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.4
+
+# Optional: Local Models (Unsloth)
+# unsloth @ git+https://github.com/unslothai/unsloth.git
+
+# Optional: Additional Tools
+# jupyter==1.0.0
+# numpy==1.26.3
+# pandas==2.2.0
+# matplotlib==3.8.2
+# seaborn==0.13.2
