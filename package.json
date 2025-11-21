@@ -1,0 +1,15 @@
+{
+  "name": "@github/copilot",
+  "version": "1.0.0",
+  "description": "GitHub Copilot CLI",
+  "main": "index.js",
+  "bin": {
+    "copilot": "./bin/copilot.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "copilot", "github"],
+  "author": "",
+  "license": "ISC"
+}
