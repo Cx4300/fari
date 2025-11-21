@@ -1,4 +1,6 @@
+const pkg = require('./package.json');
+
 module.exports = {
-  version: require('./package.json').version,
-  name: require('./package.json').name
+  version: pkg.version,
+  name: pkg.name
 };
